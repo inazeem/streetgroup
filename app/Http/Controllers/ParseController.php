@@ -94,8 +94,6 @@ class ParseController extends Controller
             }
         }
 
-        $fileobj->is_parsed = 1;
-        $fileobj->save();
 
     }
 }
